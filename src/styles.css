@@ -137,10 +137,6 @@ header .section__container {
   background-color: var(--primary-color-dark);
 }
 
-.journey__container {
-  background-color: var(--secondary-color);
-}
-
 .journey__grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -169,6 +165,39 @@ header .section__container {
   font-style: italic;
 }
 
+footer {
+  background-color: var(--text-dark);
+  color: var(--secondary-color);
+}
+
+footer .section__container {
+  display: grid;
+  gap: 1.5rem;
+  text-align: center;
+}
+
+footer h4 {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.social_icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.social_icons i {
+  padding: 5px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+footer p {
+  font-style: italic;
+}
+
 @media (min-width: 640px) {
   .nav_links {
     display: flex;
@@ -187,7 +216,7 @@ header .section__container {
     text-align: left;
   }
 
-  journey__grid {
+  .journey__grid {
     grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
   }
