@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: sans-serif;
-  color: #fff;
+  color: #f6eedf;
 }
 
 .fullscreen-img {
@@ -87,7 +87,7 @@ button {
   margin: 20px 10px;
   border-radius: 25px;
   font-weight: bold;
-  border: 2px solid #fff;
+  border: 2px solid #f6eedf;
   background: transparent;
   cursor: pointer;
   position: relative;
